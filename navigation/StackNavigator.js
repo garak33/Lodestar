@@ -15,7 +15,7 @@ const screenOptionStyle = {
 const MainStackNavigator = () => {
   return (
     <Stack.Navigator screenOptions={screenOptionStyle}>
-      <Stack.Screen name="홈" component={Home} />
+      <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="About" component={About} />
     </Stack.Navigator>
   );
